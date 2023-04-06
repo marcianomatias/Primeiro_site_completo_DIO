@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../base.css">
+    <title></title>
+</head>
+<body id="bodyIframe">
+    <div class="main">
+        <div class="header">
+            <img src="/img/contato.png" alt="contato" width="50%">
+        </div>
+      
+    <div class="content">
+        <form action="contact" method="post">
+            <fieldset>
+                <legend><b>  CONTATO</b> </legend>
+                    <h3>Telefone: (22) 5132-9x5X</h3>
+
+                    <p>
+                         <label for="name">Nome: </label>
+                        <input type="text" id="name" placeholder="Seu nome completo...">
+                    </p>
+                    <p>
+                        <label for="email">Email: </label>
+                        <input type="email" id="email" placeholder="aaaa@bbbb.com">
+                    </p>
+                    <p>
+                        <label for="assunto">Assunto: </label>
+                        <input type="text" id="assunto" placeholder="Assunto">
+                    </p>
+                    <p>
+                        <label for="mensagem">Mensagem: </label>
+                        <textarea name="textArea" form="contact" cols="30" rows="10"></textarea>
+                    </p>
+                    <br>
+                    <br>
+                    <p>
+                        <input type="reset">
+                        <button type="submit" onclick="alert('Enviado com sucesso! Entraremos em contato assim que possível!')">Enviar</button>
+                    </p>
+            </fieldset> 
+        </form>   
+    </div>
+    </div>
+</body>
+</html>
+            
